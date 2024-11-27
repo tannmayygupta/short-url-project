@@ -1,7 +1,9 @@
 <x-app-layout>
     <div class="container my-5">
       <h1 class="mb-4 text-center display-4"><strong><u>URL Shortener</u></strong></h1>
-  
+      
+      {{-- the styling changes are done by kaustubh sharma --}}
+
       <!-- Success Message -->
       @if (session('success'))
         <div class="alert alert-success text-center">{{ session('success') }}</div>
